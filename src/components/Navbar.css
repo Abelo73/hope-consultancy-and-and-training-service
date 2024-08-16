@@ -1,0 +1,56 @@
+/* Basic styles */
+.container {
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  /* Mobile menu button */
+  .mobile-menu-button {
+    display: flex;
+    margin-right: -0.5rem;
+  }
+  
+  /* Mobile menu */
+  .mobile-menu {
+    position: absolute;
+    top: 4rem; /* Adjust this value to align with your navbar height */
+    width: 100%;
+    background-color: #ffffff;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    z-index: 10;
+  }
+
+  /* Navbar.css */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  /* Media query for larger screens */
+  @media (min-width: 768px) {
+    .nav-links {
+      display: flex;
+    }
+  
+    .mobile-menu-button {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: none;
+    }
+  }
+  
