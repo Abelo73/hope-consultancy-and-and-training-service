@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className="mobile-menu-button">
             <button
               onClick={handleMobileMenuToggle}
-              className="text-gray-800 hover:text-blue-500 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+              className="text-white hover:text-blue-500 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
             >
               <svg
                 className="w-6 h-6"
